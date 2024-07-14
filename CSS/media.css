@@ -1,0 +1,852 @@
+@media screen and (min-width: 390px) and (max-width: 840px) {
+    
+    .page-layout{
+
+        display: block;
+        padding: 50px;
+    }
+
+    .content{
+        max-width: 100%;
+        background-color: #EEEEEE;
+    }
+
+    .image-container{
+
+        max-width: 100%;
+        padding-top: 50px;
+        position: relative;
+    }
+
+    .image-container img{
+
+        transition: transform 0.5s ease;
+        filter: drop-shadow(10px 7px 10px #3F4042);
+        padding: 50px 0px 50px 0px;
+        width: 100%;
+        position: relative;
+        right: 0;
+        left: 25;
+    }
+
+    .header {
+        text-align: center;
+        padding: 40px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 40px;
+    }
+
+    .contact-header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .left {
+        width: 100%;
+        padding: 20px;
+        position: relative;
+    }
+
+    .icons i {
+        padding-right: 37;
+        font-size: 24px;
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .content h1 {
+
+        font-size: 60;
+        margin: 50px 0;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 700;
+        color: #37373F;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .content p {
+
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #545B72;
+        text-align: center;
+    }
+    
+    .cards span {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #CE1212;
+    }
+
+    .cards h2 {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .cards-container{
+
+        display: block;
+    }
+
+    .list-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .middle h2 {
+        color: white;
+        padding-bottom: 20px;
+        font-family: "Inter", sans-serif;
+        font-size: 18.72px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .icons {
+        color: white;
+        padding: 15px;
+        margin: 20px auto;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .box-container form button {
+        background-color: #CE1212;
+        border-radius: 40px;
+        border: none;
+        padding: 12px 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 30px;
+        margin-left: 20%;
+        margin-left: 30%;
+    }
+    
+    .left {
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+    }
+
+    .right h2 {
+        color: white;
+        padding-bottom: 20px;
+        font-family: "Inter", sans-serif;
+        font-size: 18.72px;
+        text-align: center;
+    }
+
+    .cards .card-item {
+
+        width: 100%;
+        transition: transform 0.5s ease;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    
+    .gallery .gallery-header h2 {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .gallery h2 span {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: #CE1212;
+    }
+
+    .overlay h2 {
+
+        position: relative;
+        top: 20%;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    .overlay p {
+
+        position: relative;
+        top: 20%;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+
+    .contact .contact-header h2 {
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .contact h2 span {
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: #CE1212;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin: 20px 0;
+        display: block;
+    }
+    
+    .contact .address .text h3 {
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.2;
+    }
+
+    .contact .email .text h3 {
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1;
+        padding-top: 5px;
+    }
+
+
+
+    .call {
+
+        display: flex;
+        background-color: #F5F5F5;
+        padding: 20px 30px;
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        margin: 15px 0 10px 0;
+    }
+
+    .contact .call .text p {
+
+        font-family: "Inter", sans-serif;
+        color: #212529;
+        line-height: 1;
+    }
+
+    .hours {
+
+        display: flex;
+        background-color: #F5F5F5;
+        padding: 30;
+        flex: 0 0 calc(50% - 30px);
+        position: relative;
+        box-sizing: border-box;
+        margin: 15px 0 10px 0;
+    }
+
+    .vertical {
+
+        resize: vertical;
+        height: 70px;
+    }
+
+    .contact .hours .text p {
+
+        font-family: "Inter", sans-serif;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+
+    .contact .hours .text h3 {
+
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .footer-container {
+
+        width: 100%;
+        display: block;
+    }
+
+    .middle {
+        
+        width: 100%;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .send-message button {
+
+        width: 50%;
+        background-color: #CE1212;
+        color: white;
+        border: none;
+        padding: 12px 15px;
+    }
+
+    .send-message input {
+
+        width: 50%;
+        height: 40px;
+    }
+    
+    .right {
+
+        width: 100%;
+        padding: 20px;
+    }
+
+    .middle .left-ul {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+    }
+
+    .middle .right-ul {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+    }
+
+    .cards .card-item .text-item h2 {
+
+        z-index: 999;
+        font-family: "Inter", sans-serif;
+        font-size: 18.72px;
+        font-weight: 700;
+        color: #212529;
+        z-index: 1;
+        position: relative;
+    }
+
+    .card-item:hover .icon-list {
+
+        opacity: 1;
+        right: 25px;
+        transition: right 1s ease .3s;
+      }
+
+      .gallery .gallery-header h2 {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .row {
+
+        display: block;
+    }
+
+    .box-container form button {
+
+        background-color: #CE1212;
+        border-radius: 40px;
+        border: none;
+        padding: 12px 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 30px;
+        margin-left: 20%;
+        margin-left: 16%;
+    }
+
+    .contact .address .text p {
+
+        font-family: "Inter", sans-serif;
+        color: #212529;
+        line-height: 1.2;
+        padding-right: 5px;
+    }
+
+    .grid-container {
+
+        display: block;
+    }
+
+    .col1 {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 1;
+    }
+
+    .col2 {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 1;
+    }
+
+    .col3 {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 1;
+    }
+ 
+    .buttons {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards .card-item .text-item::before {
+
+        content: "";
+        position: absolute;
+        bottom: 130px;
+        left: 0;
+        background-image: url(../imgs/card-bg.png);
+        width: 100%;
+        height: 30%;
+    }
+    
+    .gallery h2 span {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #CE1212;
+    }
+
+    .cards .card-item .text-item::before {
+        content: "";
+        position: absolute;
+        bottom: 95%;
+        left: 0;
+        background-image: url(../imgs/card-bg.png);
+        width: 100%;
+        height: 20%;
+    }
+}
+
+/* ------------------------------------------------ */
+
+@media screen and (min-width: 840px) and (max-width: 1024px) {
+
+    .overlay h2 {
+        position: relative;
+        top: 20%;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    .cards .card-item {
+        width: 50%;
+        padding-right: 25px;
+        transition: transform 0.5s ease;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    
+    .overlay p {
+        position: relative;
+        top: 20%;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+    }
+
+    .page-layout {
+
+        padding: 50px;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 700;
+        color: #37373F;
+        margin-top: 50px;
+    }
+
+    .image-container {
+        max-width: 100%;
+        padding-top: 50px;
+    }
+
+    .contact .address .text p {
+        font-family: "Inter", sans-serif;
+        color: #212529;
+        line-height: 1.5;
+    }
+
+    .contact .address .text h3 {
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .email .text h3 {
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .call .text h3 {
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .hours .text h3 {
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .hours .text p {
+        font-family: "Inter", sans-serif;
+        color: #212529;
+        line-height: 1.5;
+    }
+    
+    .send-message input {
+
+        width: 70%;
+        height: 40px;
+    }
+
+    .send-message button {
+
+        width: 28%;
+        background-color: #CE1212;
+        color: white;
+        border: none;
+        padding: 12px 15px;
+    }
+
+    .box-container form button {
+        background-color: #CE1212;
+        border-radius: 40px;
+        border: none;
+        padding: 12px 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 30px;
+        margin-left: 35%;
+    }
+
+    .left p {
+        color: white;
+        padding-top: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+
+    .footer .left .logo-text {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        vertical-align: middle;
+    }
+
+    .icons {
+        color: white;
+        padding: 15px;
+        margin-top: 20px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .icons i {
+        padding-right: 5px;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .middle p {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+
+    .send-message input {
+        width: 65%;
+        height: 40px;
+    }
+
+    .send-message button {
+        width: 35%;
+        background-color: #CE1212;
+        color: white;
+        border: none;
+        padding: 12px 15px;
+    }
+
+    .middle .right-ul ul li i {
+        color: white;
+        font-size: 10px;
+        padding-right: 5px;
+    }
+
+    .middle .left-ul ul li i {
+        color: white;
+        font-size: 10px;
+        padding-right: 5px;
+    }
+
+    .right-ul li span{
+
+        font-size: 10px;
+    }
+
+    .left-ul li span{
+
+        font-size: 10px;
+    }
+
+    .right .location i {
+        width: 15%;
+        color: #CE1212;
+        font-size: 18px;
+    }
+
+    .right .location span {
+        color: white;
+        width: 85%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+    }
+
+    .right .message i {
+        width: 15%;
+        color: #CE1212;
+        font-size: 18px;
+    }
+
+    .right .message span {
+        color: white;
+        width: 85%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+
+    .right .tel i {
+        width: 15%;
+        color: #CE1212;
+        font-size: 20px;
+    }
+
+    .right .tel span {
+        color: white;
+        width: 85%;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+
+    .footer {
+        background-image: linear-gradient(#0009, #0009), url(../imgs/textured-metal-background.jpg);
+        background-position: center center;
+        background-size: contain;
+        padding: 30px 0;
+    }
+
+}
+
+/* ------------------------------------------------------- */
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .navbar-right {
+
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10%;
+    }
+
+    .buttons {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards h2 {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .cards span {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #CE1212;
+    }
+
+    .gallery h2 span {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #CE1212;
+    }
+
+    .gallery .gallery-header h2 {
+
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .navbar-right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 16%;
+    }
+    
+    .icons i {
+        padding-right: 15;
+        font-size: 24px;
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .cards .card-item .text-item::before {
+        content: "";
+        position: absolute;
+        bottom: 95%;
+        left: 0;
+        background-image: url(../imgs/card-bg.png);
+        width: 100%;
+        height: 20%;
+    }
+
+    .send-message button {
+        width: 30%;
+        background-color: #CE1212;
+        color: white;
+        border: none;
+        padding: 12px 15px;
+    }
+
+    .hours {
+
+        display: flex;
+        background-color: #F5F5F5;
+        padding: 20px 30px;
+        flex: 0 0 calc(50% - 30px);
+        position: relative;
+        box-sizing: border-box;
+        margin: 15px 0 10px 0;
+    }
+
+    .box-container form button {
+
+        background-color: #CE1212;
+        border-radius: 40px;
+        border: none;
+        padding: 12px 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 30px;
+        margin-left: 20%;
+        margin-left: 35.5%;
+    }
+
+}
+
+
+/* --------------------------------------------------------- */
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .page-layout {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0 50px 50px;
+    }
+
+    .contact .address .text h3 {
+
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .email .text h3 {
+
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .call .text h3 {
+
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+    .contact .hours .text h3 {
+
+        font-family: "Inter", sans-serif;
+        color: #7D7D7D;
+        line-height: 1.5;
+    }
+
+
+}
